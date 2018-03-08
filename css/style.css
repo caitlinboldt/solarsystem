@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url("https://www.citylightscinemas.com/wp-content/uploads/2017/05/Dark-Deep-Space-4K-Wallpaper-2560x1440.jpg");
+    height: 1000px;
+}
+#Sun {
+    height: 250px;
+    width: 50%;
+}
+.main h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 200;
+    padding: 20px;
+}
+.main h6 {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+.main img {
+    height: 100px;
+    width: 60%;
+}
+
+/* JavaScript Section */
+
+#infodiv {
+    margin: 100px;
+}
+#planet {
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#information {
+    color: white;
+    font-size: 26px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    .main h1 {
+        color: white;
+        font-size: 70px;
+        font-weight: 200;
+        padding: 20px;
+    }
+}
+@media (max-width: 955px) {
+    .main img {
+        height: 70px;
+        width: 50%;
+    }
+}
+@media (max-width: 885px) {
+    .main h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 200;
+        padding: 20px;
+    }
+    .main h6 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    #Sun {
+        height: 180px;
+        width: 50%;
+    }
+    .main img {
+        height: 60px;
+        width: 50%;
+    }
+    #planet {
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    #information {
+        color: white;
+        font-size: 20px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media (max-width: 767px) {
+    #Sun {
+        height: 180px;
+        width: 36%;
+    }
+    .main h6 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #planet {
+        color: white;
+        font-size: 22px;
+        font-weight: 200;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #information {
+        color: white;
+        font-size: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 660px) {
+    .main img {
+        height: 50px;
+        width: 50%;
+    }
+}
+@media (max-width: 575px) {
+    .main {
+        height: 1700px;
+    }
+    .main img {
+        height: 100px;
+        margin: 10px 0 10px 150px;
+        width: 30%;
+    }
+    #planet {
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 440px) {
+    .main img {
+        height: 100px;
+        margin: 10px 0 10px 120px;
+        width: 30%;
+    }
+    #Sun {
+        height: 150px;
+        width: 40%;
+    }
+}
