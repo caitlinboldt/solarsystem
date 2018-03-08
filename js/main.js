@@ -1,3 +1,4 @@
+//planet information stored in an array of objects
 var planets = [
     {
         name: "Sun",
@@ -37,7 +38,9 @@ var planets = [
     },
 ]
 
-
+//when the a tag is clicked the img id is stored in the variable planetId
+//for loop runs and matches the id to the planet name to the corresponding one in the array of objects
+//the planet information is then put into the empty h3 and p tags from the html
 function planetInfo() {
     var planetId = event.srcElement.id;
     for(var i=0; i<planets.length; i++) {
