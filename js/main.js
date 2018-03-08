@@ -47,9 +47,8 @@ function planetInfo() {
         if(planetId == planets[i].name) {
             document.getElementById("planet").innerHTML = planets[i].name
             document.getElementById("information").innerHTML = planets[i].info
-        } else {
-           ; 
-        }
+            break;
+        } 
     }
 }
 
