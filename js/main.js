@@ -1,4 +1,4 @@
-//planet information stored in an array of objects
+//planet information stored in an object
 
 planets = {
     sun: {
