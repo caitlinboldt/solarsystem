@@ -3,7 +3,7 @@
     padding: 0;
 }
 .main {
-    background-image: url("https://www.citylightscinemas.com/wp-content/uploads/2017/05/Dark-Deep-Space-4K-Wallpaper-2560x1440.jpg");
+    background-image: url(../img/spacebg.jpg);
     height: 1000px;
 }
 #Sun {
